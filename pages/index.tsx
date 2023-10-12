@@ -14,19 +14,20 @@ const IndexPage = () => (
       className="absolute w-full left-24 bottom-24 animate-blob2"
     />} */}
     <img src="images/logo-marbre.svg"
-    className="w-48 animate-blob2"
+    className="w-48 md:w-48 animate-blob2"
     />
     <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
-      <div className="text-center space-y-10">
-        <h3 className="font-light text-black text-xl uppercase tracking-wider">
+      <div className="text-center space-y-10 text-center space-y-6 md:space-y-8">
+        <h3 className="font-light font-sans text-black text-xl uppercase tracking-wider">
           Nous revenons bientôt
         </h3>
-        <h1 className="text-7xl text-black lg:text-7xl font-extrabold">En Maintenance</h1>
-        <p className=" text-xl text-black tracking-wide mx-10 lg:max-w-4xl lg:mx-auto font-regular">
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold font-sans text-black">EN MAINTENANCE</h1>
+        <p className="text-lg md:text-xl font-sans lg:text-2xl tracking-wide mx-4 md:mx-10 lg:max-w-4xl lg:mx-auto font-light">
         LUXEDEFRANCE.FR est actuellement en maintenance pour vous offrir une expérience améliorée.  
         Merci pour votre patience et à très bientôt sur notre nouveau site.
         </p>
-        <p className="text-xl text-black lg:text-xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto font-bold">Veuillez noter que toutes vos commandes sont toujours traitées et expédiées sans délai.</p>
+        <p className="text-lg md:text-xl font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-bold">Veuillez noter que toutes vos commandes sont toujours traitées et expédiées sans délai. </p>
+        <p className="text-md md:text-lg font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-light">N'hésitez pas à nous contacter via Email ou Whatsapp.</p>
       </div>
       {/* <form className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
         <input

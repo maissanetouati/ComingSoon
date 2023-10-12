@@ -4,8 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     backgroundImage: {
-      hero:
-        "url('/images/fond-marbre.jpg')",
+      hero: "url('/images/fond-marbre.jpg')",
+    },
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'], // Ajout de la police Poppins
     },
     extend: {
       animation: {
