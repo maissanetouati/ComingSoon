@@ -39,7 +39,7 @@ const IndexPage = () => (
         </button>
       </form> */}
     </div>
-    <div className="absolute bottom-5">
+    <div className="bottom-5">
   <ul className="flex space-x-3">
     <li>
       <Link 
