@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       hero:
-        "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
+        "url('/images/fond-marbre.jpg')",
     },
     extend: {
       animation: {

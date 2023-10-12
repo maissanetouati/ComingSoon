@@ -2,29 +2,33 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 
 const IndexPage = () => (
-  <Layout title="Coming Soon - Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by themeptation.net">
-    <img
-      src="/images/xera.svg"
+  <Layout title="Luxedefrance.fr - Site en maintenance">
+    {/* <img
+      src="/images/xera5.png"
       alt="Themeptation "
       className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
-    />
-    <img
+    /> */}
+    {/* {<img
       src="/images/shapes.svg"
       alt="hero"
       className="absolute w-full left-24 bottom-24 animate-blob2"
+    />} */}
+    <img src="images/logo-marbre.svg"
+    className="w-48 animate-blob2"
     />
     <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
       <div className="text-center space-y-10">
-        <h3 className="font-light text-xl uppercase tracking-wider">
-          Coming soon
+        <h3 className="font-light text-black text-xl uppercase tracking-wider">
+          Nous revenons bientôt
         </h3>
-        <h1 className="text-7xl lg:text-9xl font-extrabold">We’r blowing up</h1>
-        <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
-          We`re under construction. Check back for an update soon. Stay in
-          touch!
+        <h1 className="text-7xl text-black lg:text-7xl font-extrabold">En Maintenance</h1>
+        <p className=" text-xl text-black tracking-wide mx-10 lg:max-w-4xl lg:mx-auto font-regular">
+        LUXEDEFRANCE.FR est actuellement en maintenance pour vous offrir une expérience améliorée.  
+        Merci pour votre patience et à très bientôt sur notre nouveau site.
         </p>
+        <p className="text-xl text-black lg:text-xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto font-bold">Veuillez noter que toutes vos commandes sont toujours traitées et expédiées sans délai.</p>
       </div>
-      <form className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
+      {/* <form className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
         <input
           type="text"
           placeholder="hi@themeptation.net"
@@ -33,7 +37,7 @@ const IndexPage = () => (
         <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-red-500">
           Notify me
         </button>
-      </form>
+      </form> */}
     </div>
     <div className="absolute bottom-5">
       <ul className="flex space-x-3">
