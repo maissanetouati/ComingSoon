@@ -27,7 +27,17 @@ const IndexPage = () => (
         Merci pour votre patience et à très bientôt sur notre nouveau site.
         </p>
         <p className="text-lg md:text-xl font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-bold">Veuillez noter que toutes vos commandes sont toujours traitées et expédiées sans délai. </p>
-        <p className="text-md md:text-lg font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-light">N&apos;hésitez pas à nous contacter via Email ou Whatsapp.</p>
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-2">
+          <p className="text-md md:text-lg font-sans tracking-wide font-light mb-0">
+              Vous pouvez toujours passer commande via Whatsapp
+          </p>
+          <Link href="https://wa.me/+33603978674">
+              <span className="flex items-center justify-center w-16 h-16 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+                  <img src="/images/whatsapp.png" alt="WhatsApp" className="w-8 h-8" />
+              </span>
+          </Link>
+      </div>
+
       </div>
       {/* <form className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
         <input
@@ -40,14 +50,16 @@ const IndexPage = () => (
         </button>
       </form> */}
     </div>
+    <p className="text-md md:text-lg font-sans tracking-wide font-light">Contactez-nous sur Snapchat ou par Mail</p>
+
     <div className="bottom-5">
   <ul className="flex space-x-3">
     <li>
       <Link 
-        href="https://wa.me/+33603978674"
+        href="https://t.snapchat.com/dZ0hRisk"
         className="flex items-center justify-center w-16 h-16 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg"
       >
-        <img src="/images/whatsapp.png" alt="WhatsApp" className="w-8  h-8" />
+        <img src="/images/snap.png" alt="Snapchat" className="w-8  h-8" />
       </Link>
     </li>
     <li>
