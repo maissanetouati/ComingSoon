@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Resend } from "resend";
-import { WebhookClient } from "discord.js";
+import axios from "axios";
 
 const resend = new Resend("re_a3cP49wQ_5oJ5Geo6r8sP6b88ennoJrfM");
 
@@ -25,11 +25,11 @@ export default async function handler(
  * @param webhookURL L'URL du webhook pour le salon Discord.
  */
 async function sendMessageToDiscord(message: string): Promise<void> {
-  // Créer un client de webhook avec l'ID et le token
-  const webhookClient = new WebhookClient({
-    url: process.env.DISCORD_WEBHOOK_URL,
-  });
-
-  // Envoyer le message
-  await webhookClient.send(message);
+  try {
+    await axios.post(process.env.DISCORD_WEBHOOK_URL, {
+      content: message,
+    });
+  } catch (error) {
+    console.error("Erreur lors de l'envoi du message:", error);
+  }
 }
