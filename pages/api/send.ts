@@ -3,6 +3,7 @@ import axios from "axios";
 
 type ResponseData = {
   message: string;
+  success: boolean;
 };
 
 export default async function handler(
@@ -11,9 +12,12 @@ export default async function handler(
 ) {
   const email = req.body.email;
 
-  sendMessageToDiscord(`Nouvel email reçu : ${email}`);
-
-  res.status(200).redirect("/thank-you");
+  try {
+    await sendMessageToDiscord(`Nouvel email reçu : ${email}`);
+    res.status(200).json({ message: "Email envoyé !", success: true });
+  } catch (error) {
+    res.status(500).json({ message: error.message, success: false });
+  }
 }
 
 /**
@@ -27,6 +31,6 @@ async function sendMessageToDiscord(message: string): Promise<void> {
       content: message,
     });
   } catch (error) {
-    console.error("Erreur lors de l'envoi du message:", error);
+    throw new Error("Impossible d'envoyer le message à Discord.");
   }
 }
