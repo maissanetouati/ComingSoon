@@ -1,8 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { Resend } from "resend";
 import axios from "axios";
-
-const resend = new Resend("re_a3cP49wQ_5oJ5Geo6r8sP6b88ennoJrfM");
 
 type ResponseData = {
   message: string;
