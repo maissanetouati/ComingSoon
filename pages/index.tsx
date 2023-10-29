@@ -46,7 +46,7 @@ const IndexPage = () => {
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold font-sans text-black">
             EN MAINTENANCE
           </h1>
-          <h3 className="font-bold font-sans text-black text-xl uppercase tracking-wider">
+          <h3 className="font-bold font-sans text-black text-2xl uppercase tracking-wider">
             Nous revenons le 11 Novembre
           </h3>
 
