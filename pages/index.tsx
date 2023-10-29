@@ -78,7 +78,7 @@ const IndexPage = () => {
           </p>
           <p className="text-lg md:text-xl font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-bold">
             Veuillez noter que toutes les commandes déjà passées sont toujours
-            traitées et expédiées sans délais.{" "}
+            traitées et expédiées sans délais. Retour de la prise de commande le 11 novembre.{" "}
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-2">
