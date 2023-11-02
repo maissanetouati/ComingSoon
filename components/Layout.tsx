@@ -14,9 +14,9 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         name="description"
-        content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
+        content="Luxedefrance.fr"
       />
-      <meta property="og:title" content={`${title} | Themeptation`} />
+      <meta property="og:title" content={`${title} | Votre fournisseur haut de gamme`} />
       <meta
         property="og:description"
         content="Slioth - is a One Page Saas Lading Page build with Tailwind CSS and NextJs created by themeptation"
