@@ -6,10 +6,10 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
+const Layout = ({ children, title = "Fournisseur haut de gamme" }: Props) => (
   <div className="relative min-h-screen flex flex-col justify-center items-center bg-hero bg-cover">
     <Head>
-      <title>{`${title} | Themeptation`}</title>
+      <title>{`${title} | LUXEDEFRANCE.FR`}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
