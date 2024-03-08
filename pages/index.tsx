@@ -46,11 +46,9 @@ const IndexPage = () => {
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold font-sans text-black">
             EN MAINTENANCE
           </h1>
-          <h3 className="font-bold font-sans text-black text-2xl uppercase tracking-wider">
-            Nous revenons le 11 Novembre
-          </h3>
 
-          <p className="text-md md:text-lg font-sans tracking-wide font-light mb-0">
+
+          {/* <p className="text-md md:text-lg font-sans tracking-wide font-light mb-0">
             Soyez les premiers avertis de notre retour :
           </p>
           <form
@@ -70,15 +68,14 @@ const IndexPage = () => {
                 className="w-5 h-5"
               />
             </button>
-          </form>
+          </form> */}
           <p className="text-md md:text-md font-sans lg:text-md tracking-wide mx-4 md:mx-10 lg:max-w-4xl lg:mx-auto font-light">
             LUXEDEFRANCE.FR est actuellement en maintenance pour vous offrir une
-            expérience améliorée. Merci pour votre patience et à très bientôt
-            sur notre nouveau site.
+            expérience améliorée. Merci pour votre patience.
           </p>
           <p className="text-lg md:text-xl font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-bold">
             Veuillez noter que toutes les commandes déjà passées sont toujours
-            traitées et expédiées sans délais. Retour de la prise de commande le 11 novembre.{" "}
+            traitées et expédiées sans délais. {" "}
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-2">
