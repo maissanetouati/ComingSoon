@@ -44,7 +44,7 @@ const IndexPage = () => {
       <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
         <div className="text-center space-y-10 md:space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold font-sans text-black">
-            EN MAINTENANCE
+            Le site LUXEDEFRANCE.FR ferme ses portes. 
           </h1>
 
 
@@ -70,17 +70,16 @@ const IndexPage = () => {
             </button>
           </form> */}
           <p className="text-md md:text-md font-sans lg:text-md tracking-wide mx-4 md:mx-10 lg:max-w-4xl lg:mx-auto font-light">
-            LUXEDEFRANCE.FR est actuellement en maintenance pour vous offrir une
-            expérience améliorée. Merci pour votre patience.
+            Merci pour votre confiance et votre fidélité. 
           </p>
-          <p className="text-lg md:text-xl font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-bold">
+          <p className="text-lg md:text-xl font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-medium">
             Veuillez noter que toutes les commandes déjà passées sont toujours
             traitées et expédiées sans délais. {" "}
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-2">
-            <p className="text-md md:text-lg font-sans tracking-wide font-light mb-0">
-              Nous contacter :
+            <p className="text-md md:text-lg font-sans tracking-wide font-bold mb-0">
+              RETROUVEZ-NOUS DÉSORMAIS SUR WHATSAPP UNIQUEMENT : 
             </p>
           </div>
         </div>
@@ -103,7 +102,7 @@ const IndexPage = () => {
               </span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               rel="noreferrer"
               href="mailto:luxedefrance1@gmail.com"
@@ -111,7 +110,7 @@ const IndexPage = () => {
             >
               <img src="/images/mail.png" alt="Email us" className="w-8 h-8" />
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="https://t.snapchat.com/dZ0hRisk"
