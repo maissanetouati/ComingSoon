@@ -29,7 +29,7 @@ const IndexPage = () => {
     }
   };
   return (
-    <Layout title="Luxedefrance.fr - Site en maintenance">
+    <Layout title="Luxedefrance - Site en maintenance">
       {/* <img
       src="/images/xera5.png"
       alt="Themeptation "
