@@ -44,7 +44,7 @@ const IndexPage = () => {
       <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
         <div className="text-center space-y-10 md:space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold font-sans text-black">
-            Le site LUXEDEFRANCE est en maintenance. Nous sommes bientôt de retour. 
+            Le site LUXEDEFRANCE est en maintenance. 
           </h1>
 
 
@@ -70,7 +70,7 @@ const IndexPage = () => {
             </button>
           </form> */}
           <p className="text-md md:text-md font-sans lg:text-md tracking-wide mx-4 md:mx-10 lg:max-w-4xl lg:mx-auto font-light">
-            Merci pour votre confiance.
+            Nous sommes bientôt de retour. Merci pour votre patience.
           </p>
           <p className="text-lg md:text-xl font-sans tracking-wide mx-4 md:mx-10 lg:max-w-xl lg:mx-auto font-medium">
             Veuillez noter que toutes les commandes déjà passées sont toujours
