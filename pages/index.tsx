@@ -111,14 +111,7 @@ const IndexPage = () => {
               <img src="/images/mail.png" alt="Email us" className="w-8 h-8" />
             </a>
           </li> */}
-          <li>
-            <a
-              href="https://t.snapchat.com/dZ0hRisk"
-              className="flex items-center justify-center w-16 h-16 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg"
-            >
-              <img src="/images/snap.png" alt="Snapchat" className="w-8  h-8" />
-            </a>
-          </li>
+          
         </ul>
       </div>
     </Layout>
