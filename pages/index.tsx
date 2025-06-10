@@ -40,7 +40,7 @@ const IndexPage = () => {
       alt="hero"
       className="absolute w-full left-24 bottom-24 animate-blob2"
     />} */}
-      <img src="public/images/logo-marbre.svg" className="w-48 md:w-48" />
+      <img src="/images/logo-marbre.svg" className="w-48 md:w-48" />
       <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
         <div className="text-center space-y-10 md:space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold font-sans text-black">
